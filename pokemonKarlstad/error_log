@@ -1,0 +1,13 @@
+[15-Feb-2017 19:03:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32
+[15-Feb-2017 19:03:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'nrlfeskn_shariele'@'localhost' to database 'nrlfeskn_pokemonKarlstad'' in /home/nrlfeskn/public_html/pokemonKarlstad/include/connect_db.php:8
+Stack trace:
+#0 /home/nrlfeskn/public_html/pokemonKarlstad/include/connect_db.php(8): PDO->__construct('mysql:host=loca...', 'nrlfeskn_sharie...', 'Ulthwe95', Array)
+#1 /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php(36): require('/home/nrlfeskn/...')
+#2 /home/nrlfeskn/public_html/pokemonKarlstad/index.php(8): include('/home/nrlfeskn/...')
+#3 {main}
+  thrown in /home/nrlfeskn/public_html/pokemonKarlstad/include/connect_db.php on line 8
+[15-Feb-2017 19:18:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32
+[17-Feb-2017 08:22:31 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32
+[17-Feb-2017 08:22:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32
+[17-Feb-2017 08:24:45 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32
+[17-Feb-2017 08:24:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/pokemonKarlstad/index.php:7) in /home/nrlfeskn/public_html/pokemonKarlstad/include/necessities.php on line 32

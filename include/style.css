@@ -1,0 +1,357 @@
+body, html {
+    height: 100%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body { 
+    /*background-repeat: repeat-x;*/
+    background-color: white;
+    margin: 0;
+}
+
+/*Remove dots from lists*/
+ul{
+    list-style-type: none;
+}
+.row{
+    margin-left:0px !important;
+    margin-right: 0px !important;
+}
+.container{
+    margin-top: 0px !important;
+}
+
+.parallax1 { 
+    /* The image used */
+    background-image: url("../img/parallax1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("../img/parallax2.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    /* The image used */
+    background-image: url("../img/parallax3.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4{
+    /* The image used */
+    background-image: url("../img/parallax4.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.cvListSmall{
+    margin-top: -5px;
+    list-style-type: none;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.cvListBig{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/*Header*/
+.headerBackground {
+    background: url("../img/headerBackground.jpg") no-repeat;
+    background-size: 120% 120%;
+    /*min-height: 1000px;*/
+    height:100%;
+    /*width: 100%;*/
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+}
+
+.overlay-content-right{
+    margin-top: 300px;
+    z-index: 5;
+}
+
+.overlay-right {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0%;
+    position: fixed !important; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    right: 0;
+    top: 0;
+    background-color: #0B3C5D;
+    overflow: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.projects-content{
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /*height: 0%;*/
+    /*width: 100%;*/
+    /*position: relative !important; /* Stay in place */
+    /*z-index: 10;  Sit on top */
+    /*left: 0;*/
+    /*right: 0px;*/
+    /*top: 0;*/
+    /*background-color: #0B3C5D;*/
+    /*color: white;*/
+    /*overflow: hidden;  Disable horizontal scroll */
+    transition: 2s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.menu-nav>li>a{
+    font-size: 25px;
+    text-align: center;
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu-nav>li{
+    margin-bottom: 15px;
+}
+
+.barCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 100px;
+    height: 100px;
+    /*padding: 8px;*/
+    cursor: pointer;
+    background: #0B3C5D;
+    /*border: 2px solid #666;*/
+    color: #fff;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+}
+.jumbotron{
+    background: rgba(0, 0, 0, .0);
+    color: white;
+    margin-top: 15%;
+    /*margin-left: 5%*/
+}
+.jumbotron h1{
+    text-align: center;
+}
+/*about*/
+.about-content-right{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(29, 99, 141, 0.9);
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
+
+.about-content-right h1{
+    font-size: 55px;
+    font-family: "Times New Roman", Times, serif;
+    color: #E2C029;
+}
+
+/*projects*/
+.projectImg img:hover {
+    /*transform: translateX(-5%);*/
+    /*transform: translateY(-5%);*/
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+    
+    background-size: 100% 100%
+}
+
+.projects-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects-content h1{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+}
+
+.projects-content h3{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+}
+
+.projects-content h4{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    /*font-size: 25px;*/
+}
+
+
+/*cv*/
+.cv-content{
+    /*padding-top: 50px;*/
+    /*padding-bottom: 50px;*/
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.cv-content-title{
+    background-color: rgba(29, 99, 141, 0.9);
+}
+.cv-content h1{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+}
+.cv-content h2{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+}
+
+.cv-content-utbildning{
+    background-color: rgba(29, 99, 141, 0.9);
+}
+.cv-content-arbetserfarenheter{
+    background-color: rgba(29, 99, 141, 0.9);
+}
+
+.cv-content-bottom{
+    background-color: rgba(29, 99, 141, 0.9);
+}
+
+/*footer*/
+.footer{
+    /*margin-bottom: 20px;*/
+    background-color: #0B3C5D;
+}
+.footer h4{
+    color: #E2C029;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.footer p{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+.projectImg img{
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+/*Navbar-top*/
+.navbar {
+    
+    font-size:14px;
+    width:100%;
+    color:white;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0px;
+}
+.navbar a{
+    color:white;
+}
+.navbar-nav>li>a{
+    margin-top: 40px;
+    z-index: 1;
+    padding: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:red;
+}
+.navbar-right{
+    margin:0px;
+    z-index: 1;
+}
+.navbar-fixed-top{
+    top: 10% !important;
+    left:90% !important;
+    right: 3% !important;
+}
+
+
+/*Skapar en breakpoint för navbaren vid 1000px*/
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0px;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+}

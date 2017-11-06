@@ -1,0 +1,19 @@
+[15-Feb-2017 19:13:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20
+[15-Feb-2017 19:13:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'nrlfeskn_shariele'@'localhost' to database 'nrlfeskn_webshop'' in /home/nrlfeskn/public_html/webshop/include/connect_db.php:8
+Stack trace:
+#0 /home/nrlfeskn/public_html/webshop/include/connect_db.php(8): PDO->__construct('mysql:host=loca...', 'nrlfeskn_sharie...', 'Ulthwe95', Array)
+#1 /home/nrlfeskn/public_html/webshop/include/header.php(23): require('/home/nrlfeskn/...')
+#2 /home/nrlfeskn/public_html/webshop/index.php(8): include('/home/nrlfeskn/...')
+#3 {main}
+  thrown in /home/nrlfeskn/public_html/webshop/include/connect_db.php on line 8
+[15-Feb-2017 19:15:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20
+[15-Feb-2017 19:15:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nrlfeskn_webshop.article' doesn't exist' in /home/nrlfeskn/public_html/webshop/components/main.php:60
+Stack trace:
+#0 /home/nrlfeskn/public_html/webshop/components/main.php(60): PDO->prepare('SELECT * FROM a...')
+#1 /home/nrlfeskn/public_html/webshop/index.php(12): include('/home/nrlfeskn/...')
+#2 {main}
+  thrown in /home/nrlfeskn/public_html/webshop/components/main.php on line 60
+[15-Feb-2017 19:17:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20
+[15-Feb-2017 19:18:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20
+[17-Feb-2017 08:24:22 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20
+[17-Feb-2017 08:24:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/webshop/index.php:7) in /home/nrlfeskn/public_html/webshop/include/header.php on line 20

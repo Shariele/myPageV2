@@ -1,0 +1,5 @@
+[15-Feb-2017 18:52:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'id775561_shariele'@'localhost' (using password: YES) in /home/nrlfeskn/public_html/blog/include/connect_db.php on line 9
+[15-Feb-2017 18:52:42 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/nrlfeskn/public_html/blog/include/connect_db.php on line 10
+[15-Feb-2017 19:18:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/blog/startpage.php:9) in /home/nrlfeskn/public_html/blog/include/header.php on line 5
+[17-Feb-2017 08:24:24 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/nrlfeskn/public_html/blog/startpage.php:9) in /home/nrlfeskn/public_html/blog/include/header.php on line 5
+[17-Feb-2017 08:24:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/nrlfeskn/public_html/blog/startpage.php:9) in /home/nrlfeskn/public_html/blog/include/header.php on line 5
