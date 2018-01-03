@@ -347,3 +347,10 @@ ul{
     left: 80% !important;
   }
 }
+
+@media (max-width: 550px){
+  .navbar-fixed-top{
+    right: 3% !important;
+    left: 75% !important;
+  }
+}
