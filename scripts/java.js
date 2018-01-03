@@ -13,3 +13,18 @@ function changePageJs(page){
         }
     });
 }
+
+function changeModalJs(modal){
+    $.ajax({
+        type: "POST",
+        url: "scripts/php.php",
+        data: {
+            c: modal,
+            action: "changeModal"
+        },
+        success:  function(data){
+            $('#modalHandler').html(data);
+            console.log("changeModalJs");
+        }
+    });
+}

@@ -83,7 +83,7 @@
 									<div class="col-xs-4 text-right">
 										<div class="row">
 											<div class="col-xs-12">
-												<p class="cvListBig">Fukuoka(Japan)</p>
+												<p class="cvListBig">Fukuoka (Japan)</p>
 											</div>
 										</div>
 										<div class="row">
@@ -361,7 +361,7 @@
 							<div class="col-md-12">
 								<p><strong>Svenska: </strong>Modersmål</p>
 								<p><strong>Engelska: </strong>Flytande</p>
-								<p><strong>Japanska: </strong>Kan ta mig fram i vardagen i Japan / hålla en enkel konversation.(N4)</p>
+								<p><strong>Japanska: </strong>Kan ta mig fram i vardagen i Japan / hålla lite mer än en enkel konversation(N4).</p>
 							</div>
 						</div>
 					</div>
@@ -379,7 +379,7 @@
 						<div class="col-md-12" style=" border-top: 1px solid black; border-bottom: 1px solid black;"></div>
 						<div class="row">
 							<div class="col-md-12">
-								<p>Finns en del, jag ger ut dem vid förfrågan i nuläget!</p>
+								<p>Jag ger ut dem vid förfrågan i nuläget!</p>
 							</div>
 						</div>
 					</div>
@@ -399,7 +399,6 @@
 								<div class="col-md-12">
 									<p>Andra kulturer</p>
 									<p>Resa utomlands</p>
-									<p>Små kluringar, t.ex. en träkub som man ska plocka isär och sätta ihop.</p>
 								</div>
 							</div>
 						</div>
@@ -409,4 +408,3 @@
 		</div>
 	</div>
 </div>
-

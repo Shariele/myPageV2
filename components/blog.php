@@ -1,9 +1,6 @@
 <body>
-	<div class="container"> 
+	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
-				<Strong><p class="text-left"><button id="projects" style="border-color: white;" class="btn btn btn-default btn-s"> Tillbaka </button></p></strong>
-			</div>
 			<div class="col-md-8">
 				<p><h2><center>Blogg</center></h2></p>
 				<p><center style="color: grey">My Blogger</center></p>
@@ -11,9 +8,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8">	
-				
-				<p><strong>Programspråk vilka användes:</strong> HTML, CSS, PHP</p>
+			<div class="col-md-8">
+				<p>Från 2014</p>
+				<p>Första stora webbapplikationen jag gjorde, är tänkt att vara en bloggportal.</p>
+
+				<p><strong>Programspråk:</strong> HTML, CSS, PHP</p>
 				<p><strong>Ramverk:</strong> Bootstrap</p>
 			</div>
 			<div class="col-md-4">
@@ -24,7 +23,7 @@
 	</div>
 </body>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(document).ready(function(){
 		$("#projects").one('click', function(e) {
 	      e.preventDefault();
@@ -33,4 +32,4 @@
 
 	    });
 	});
-</script>
+</script> -->

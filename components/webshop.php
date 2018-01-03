@@ -1,21 +1,16 @@
-<div class="container"> 
+<div class="container">
 	<div class="row">
-		<div class="col-md-2">
-			<i style="font-size: 200px;" class="fa fa-angle-double-left" aria-hidden="true"></i>
-		</div>
 		<div class="col-md-10">
 			<div class="row">
-				<div class="col-md-2">
-					<Strong><p class="text-left"><button id="projects" style="border-color: white;" class="btn btn btn-default btn-s"> Tillbaka </button></p></strong>
-				</div>
 				<div class="col-md-8">
 					<p><h2><center>Webshop</center></h2></p>
 					<br>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8">	
-					<p>Mitt andra och stora projekt under min tid på Gymnasieingenjörsutbildningen, en webbshop, här drog jag stor nytta av mina nya kunskaper med Javascript och jQuery till skillnad från Bloggen.
+				<div class="col-md-8">
+					<p>Från 2014</p>
+					<p>Mitt andra stora projekt under min tid på Gymnasieingenjörsutbildningen, en webbshop, här drog jag stor nytta av mina nya kunskaper med Javascript och jQuery till skillnad från Bloggen.
 					Jag använde mig även för första gången av Ajax för vissa delar av sidan.</p>
 
 					<p><strong>Programspråk vilka användes:</strong> HTML, CSS, PHP, Javasript & jQuery(är ju dock ett bibliotek till Javascript)</p>

@@ -10,14 +10,15 @@
                 <div class="col-md-6">
                     <center><p><h4>Annan information:</h4></p></center>
                     <br>
-                    <center><p><a href="https://se.linkedin.com/in/rasmus-lennartsson-b2a1baab">Finns även på linkedin!</a></p></center>
+                    <center><strong><p><a style="color: white;" href="https://github.com/Shariele" target="_blank">Github!</a></p></strong></center>
+                    <center><p><a style="color: white;" href="https://se.linkedin.com/in/rasmus-lennartsson-b2a1baab" target="_blank">Finns även på linkedin!</a></p></center>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <center><p>&copy; 2017 Rasmus Lennartsson</p></center>
+                    <center><p>&copy; 2018 Rasmus Lennartsson</p></center>
                 </div>
             </div>
         </div>
     </div>
-</div> 
+</div>

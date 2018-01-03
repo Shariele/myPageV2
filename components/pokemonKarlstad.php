@@ -1,18 +1,17 @@
 <body>
-	<div class="container"> 
+	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
-				<Strong><p class="text-left"><button id="projects" style="border-color: white;" class="btn btn btn-default btn-s"> Tillbaka </button></p></strong>
-			</div>
 			<div class="col-md-8">
 				<p><h2><center>PokémonKarlstad</center></h2></p>
 				<br>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8">	
-				<p>PokémonKarlstad är en sida jag skapade tillsammans med en kompis strax efter att Pokémon GO hade släpps vilket gör den till mitt senaste projekt. Tanken med sidan var att skapa en informationsplats där folk som spelade spelet i Karlstads kunde gå in och dela med sig av information, därav själva forumsdelen.</p>
-				<p>Projektet kom dock aldrig till en liveversion och förblir ett gammalt projekt.</p>
+			<div class="col-md-8">
+				<p>Från 2016</p>
+				<p>PokémonKarlstad är en sida jag skapade tillsammans med en kompis strax efter att Pokémon GO hade släpps. Tanken med sidan var att skapa en informationsplats där folk som spelade spelet i Karlstads kunde gå in och dela med sig av information, därav själva forumsdelen.</p>
+				<p>Projektet kom dock aldrig till en liveversion och förblir ett gammalt projekt. Men innehåller ett imponerande forum vars back-end är gjort av mig från grunden
+					och designen sköttes till största del av min kompis.</p>
 				<p><strong>Programspråk vilka användes:</strong> HTML, CSS, PHP, Javasript & jQuery(är ju dock ett bibliotek till Javascript)</p>
 			</div>
 			<div class="col-md-4">
@@ -23,7 +22,7 @@
 	</div>
 </body>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(document).ready(function(){
 		$("#projects").one('click', function(e) {
 	      e.preventDefault();
@@ -32,4 +31,4 @@
 
 	    });
 	});
-</script>
+</script> -->

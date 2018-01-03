@@ -3,7 +3,7 @@ body, html {
     font-family: "Times New Roman", Times, serif;
 }
 
-body { 
+body {
     /*background-repeat: repeat-x;*/
     background-color: white;
     margin: 0;
@@ -21,12 +21,12 @@ ul{
     margin-top: 0px !important;
 }
 
-.parallax1 { 
+.parallax1 {
     /* The image used */
     background-image: url("../img/parallax1.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -35,12 +35,12 @@ ul{
     background-size: cover;
 }
 
-.parallax2 { 
+.parallax2 {
     /* The image used */
     background-image: url("../img/parallax2.jpeg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -49,12 +49,12 @@ ul{
     background-size: cover;
 }
 
-.parallax3 { 
+.parallax3 {
     /* The image used */
     background-image: url("../img/parallax3.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -68,7 +68,7 @@ ul{
     background-image: url("../img/parallax4.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -92,6 +92,20 @@ ul{
     font-weight: bold;
 }
 
+/*Index*/
+.welcomeModalContent{
+    background-color: rgba(29, 99, 141, 0.9);
+    color: white;
+}
+
+.welcomeModalContent a{
+    color: white;
+}
+
+.welcomeModalContent, .modal-header, .close{
+    color:white;
+}
+
 /*Header*/
 .headerBackground {
     background: url("../img/headerBackground.jpg") no-repeat;
@@ -109,7 +123,7 @@ ul{
 }
 
 .overlay-right {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0%;
     position: fixed !important; /* Stay in place */
@@ -122,7 +136,7 @@ ul{
 }
 
 .projects-content{
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     /*height: 0%;*/
     /*width: 100%;*/
     /*position: relative !important; /* Stay in place */
@@ -182,7 +196,12 @@ ul{
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
+}
 
+.aboutImg img{
+  width: 100%;
+  max-height: 900px;
+  background-size: 100% 100%;
 }
 
 .about-content-right h1{
@@ -198,7 +217,7 @@ ul{
     width: 130px;
     height: 130px;
     cursor: pointer;
-    
+
     background-size: 100% 100%
 }
 
@@ -223,6 +242,15 @@ ul{
     color: #E2C029;
     font-family: "Times New Roman", Times, serif;
     /*font-size: 25px;*/
+}
+
+.projects-content {
+  color: #E2C029;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.projectsModalContent{
+  min-width: 1200px !important;
 }
 
 
@@ -268,7 +296,7 @@ ul{
 .footer h4{
     color: #E2C029;
     font-family: "Times New Roman", Times, serif;
-    
+
 }
 .footer p{
     color: white;
@@ -281,7 +309,7 @@ ul{
 }
 /*Navbar-top*/
 .navbar {
-    
+
     font-size:14px;
     width:100%;
     color:white;
@@ -313,45 +341,9 @@ ul{
     right: 3% !important;
 }
 
-
-/*Skapar en breakpoint för navbaren vid 1000px*/
-@media (max-width: 1000px) {
-    .navbar-header {
-        float: none;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .navbar-text {
-        float: none;
-        margin: 15px 0px;
-    }
-    /* since 3.1.0 */
-    .navbar-collapse.collapse.in { 
-        display: block!important;
-    }
-    .collapsing {
-        overflow: hidden!important;
-    }
-
+@media (max-width: 770px){
+  .navbar-fixed-top{
+    right: 3% !important;
+    left: 80% !important;
+  }
 }
